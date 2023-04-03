@@ -1,0 +1,163 @@
+/*open login and register*/
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #888888;
+    margin: 100px auto;
+    max-width: 500px;
+}
+
+h2 {
+    text-align: center;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.login,
+.register {
+    text-align: center;
+}
+
+.login a,
+.register a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.login a:hover,
+.register a:hover {
+    color: #45a049;
+}
+
+.home {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.home a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+
+/*close login and register*/
+
+.home a:hover {
+    color: #45a049;
+}
+
+
+/* Style the forms */
+
+.form-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+    z-index: 9999;
+    display: none;
+}
+
+.form {
+    display: none;
+}
+
+
+/* Blur the background */
+
+.blur {
+    filter: blur(5px);
+}
+
+
+/* Header styling */
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+
+/* Style for the register and login buttons */
+
+nav #register-button,
+nav #login-button {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+nav #register-button:hover,
+nav #login-button:hover {
+    background-color: #f1f1f1;
+}
+
+
+/* Avatar image for logged in user */
+
+nav #avatar {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-left: 10px;
+}
