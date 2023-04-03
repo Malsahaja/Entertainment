@@ -17,6 +17,7 @@
         <main>
             <p>Thank you for visiting our website! We provide information about the most popular tourist destinations around the world. Our goal is to help you plan your dream vacation and create memories that will last a lifetime.</p>
             <p>Use the navigation menu above to explore our site and discover new destinations. We hope you find our website helpful and inspiring.</p>
+            <p>test</p>
         </main>
             <?php
                 INCLUDE('footer.php');
